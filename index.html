@@ -180,8 +180,12 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form action="https://api.web3forms.com/submit" method="POST" >
+
+                        <input type="hidden" name="access_key" value="cc3fe2ce-3d33-40bd-8290-8db6253df121">
+
                         <div class="fields">
+
                             <div class="field name">
                                 <input type="text" placeholder="Name" required>
                             </div>
@@ -267,6 +271,7 @@
     <footer>
         <span>Created By<a href="https://www.linkedin.com/in/ayush-sen-b8a51b273/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Mr_Ayush</a> | <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
     </footer>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
     <script src="script.js"></script>
 </body>
